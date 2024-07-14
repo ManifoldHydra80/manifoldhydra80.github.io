@@ -4,6 +4,6 @@ Disallow: /getrefer/
 Disallow: /test/
 Disallow: /test*/
 Disallow: /CNAME/
-Disallow: /*?*
+Disallow: /?*
 
 Sitemap: https://j-ing.me/sitemap.xml
