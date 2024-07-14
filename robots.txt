@@ -1,2 +1,8 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /getrefer/
+Disallow: /test/
+Disallow: /test*/
+Disallow: /CNAME/
+
+Sitemap: https://j-ing.me/sitemap.xml
