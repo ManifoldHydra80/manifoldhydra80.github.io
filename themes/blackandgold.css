@@ -1,0 +1,19 @@
+body {
+    color: yellow;
+    background-color: black;
+    text-shadow: 0 0 4px #FFEB3B;
+}
+.linkbuttontext {
+    color: white;
+    text-shadow: none;
+	text-decoration: none;
+}
+.linkbutton {
+    border-style: solid;
+    box-shadow: 0 0 5px yellow;
+}
+@keyframes buttonanime-1 {
+	0% {width:21%;}
+	50% {width:100%;}
+	100% {width:21%;}
+}
