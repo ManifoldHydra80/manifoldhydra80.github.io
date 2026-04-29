@@ -1,5 +1,5 @@
-sync function runscript(){
-	if (document.referrer == 'https://l.j-ing.me'){
+async function runscript(){
+	if (document.referrer == 'https://l.j-ing.me/'){
 		CurrentURL = new URL(location.href);
 		NewURL = await CurrentURL.searchParams.get('redirect-to')
 			if (localStorage.getItem('Skipadwarn')=='yes'){
